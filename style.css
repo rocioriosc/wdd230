@@ -13,7 +13,7 @@ header {
   display: grid;
   grid-template-columns: 1000px auto;
   grid-template-rows: 200px auto;
-    background-color: #498486;
+    background-color: #021e49;
     text-align: center;
 
   
@@ -34,7 +34,7 @@ header {
 
   
   body {
-    background-color: #6c9cbe;
+    background-color: #6086a1;
     font-family: Roboto, Monserrat, SourceSans3;
     padding: 5px 25px;
     font-size: 18px;
@@ -95,8 +95,8 @@ footer {
     grid-gap: 1em;
     width: 100%;
     padding: 1em 0;
-    color: #112031;
-    background-color: #498486;
+    color: #ffffff;
+    background-color: #021e49;
     text-align: right;
     grid-template-columns: 1fr 1fr;
     
