@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family|Roboto:wght@100&family|Source+Sans+3:wght@200&display=swap');
+
+
+@media screen and (max-width: 550px) {
+
+.home-grid {
+    display: block;
+  }
+}
+header {
+    
+  display: grid;
+  grid-template-columns: 1000px auto;
+  grid-template-rows: 200px auto;
+    background-color: #498486;
+    text-align: center;
+
+  
+  }
+
+  
+.photo {
+    width: 200px;
+    height: 200px; 
+    border-radius: 40px 50px 10px 10px;
+    padding: 0.5em;
+   
+
+  }
+
+  
+
+
+  
+  body {
+    background-color: #6c9cbe;
+    font-family: Roboto, Monserrat, SourceSans3;
+    padding: 5px 25px;
+    font-size: 18px;
+    margin: 0;
+    color: #000000;
+  }
+
+  ul {
+    
+    color: #112031;
+    text-decoration: none;
+    font-weight: bolder;
+    list-style-type: style type square; 
+    list-style-position: inside;
+    white-space: nowrap;
+  }
+
+
+  
+  
+  h1 {
+    font-family: Monserrat, Roboto, SourceSans3;
+    font-size: 40px;
+    color: white;
+   
+  }
+  
+  
+  h2 {
+    font-family: Monserrat, Roboto, SourceSans3;
+    font-size: 40px;
+    color: white;
+    text-shadow: 5px 1px 2px black;
+    
+  }
+  h3 {
+    font-family: Monserrat, Roboto, SourceSans3;
+    font-size: 20px;
+    color: rgb(245, 245, 245);
+    
+    font-style: italic;
+    
+  }
+  
+  
+  
+  p {
+    
+    
+    font-family: Roboto, Monserrat, SourceSans3;
+    
+  }
+  
+
+footer {
+    height: 55px;
+    display: grid;
+    grid-gap: 1em;
+    width: 100%;
+    padding: 1em 0;
+    color: #112031;
+    background-color: #498486;
+    text-align: right;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  
+  footer p {
+    text-align: center;
+    
+  }
